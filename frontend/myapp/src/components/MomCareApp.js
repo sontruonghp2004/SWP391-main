@@ -1,10 +1,6 @@
 import React from 'react';
-<<<<<<< HEAD
-import './MomCareApp.css';
-
-=======
 import '../App.css';
->>>>>>> d922361db8ad08c67859f96d2543d8b8d4b4bfbd
+import './MomCareApp.css';
 
 function MomCareApp() {
   return (

@@ -70,7 +70,7 @@ function Navbarr() {
     )}
     {/* Đăng ký */}
     {!isLoggedIn && (
-      <Nav.Link href="#register" className="btn btn-success text-white ms-2">
+      <Nav.Link href="#register" className="btn btn-success text-primary ms-2">
         Đăng ký
       </Nav.Link>
     )}
