@@ -5,8 +5,6 @@ import './MomCareApp.css';
 function MomCareApp() {
   return (
     <div className="App">
-
-
       <main>
         <section className="hero">
           <div className="container hero-grid">
