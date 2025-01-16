@@ -1,6 +1,9 @@
+import React from 'react';
 import { ToastContainer } from 'react-toastify';
 import './App.css';
 import Navbarr from './components/Customer/Navbar';
+import MomCareApp from './components/MomCareApp';
+
 
 function App() {
   return (
@@ -17,7 +20,8 @@ function App() {
         pauseOnHover 
         theme="light" 
       />
-      <Navbarr/>
+      <Navbarr />
+      <MomCareApp />  {/* Add the new component here */}
     </div>
   );
 }
