@@ -1,10 +1,33 @@
 import React from 'react';
+<<<<<<< HEAD
 import './MomCareApp.css';
 
+=======
+import '../App.css';
+>>>>>>> d922361db8ad08c67859f96d2543d8b8d4b4bfbd
 
 function MomCareApp() {
   return (
     <div className="App">
+<<<<<<< HEAD
+=======
+      <header className="App-header">
+        <nav className="container">
+          <div className="logo">
+            <img src="images/logo.png" alt="MomCare Logo" />
+            <span>Mom & Baby</span>
+          </div>
+          <ul className="nav-links">
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#features">Cộng Đồng</a></li>
+            <li><a href="#tracking">Theo dõi</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li className="cta-button"><a href="#register">Đăng ký</a></li>
+            <li className="cta-button-secondary"><a href="#login">Đăng nhập</a></li>
+          </ul>
+        </nav>
+      </header>
+>>>>>>> d922361db8ad08c67859f96d2543d8b8d4b4bfbd
 
       <main>
         <section className="hero">
