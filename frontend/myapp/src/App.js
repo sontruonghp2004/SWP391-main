@@ -3,7 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import './App.css';
 import LoginPage from './components/Customer/LoginSignUp'; // Ensure the correct path
-import Navbarr from './components/Customer/Navbarr'; // Ensure the correct path
+import MembershipPage from './components/Customer/MembershipPage';
+import Footer from './components/Dashboard/Footer'; // Ensure the correct path
+import Navbarr from './components/Dashboard/Navbarr';
 import MomCareApp from './components/MomCareApp';
 
 function App() {
@@ -24,10 +26,21 @@ function App() {
         
         <Routes>
           <Route path="/login" element={<LoginPage />} />
+
+          <Route path="/membership" element={
+            <>
+              <Navbarr />
+              <MembershipPage /> 
+              <Footer /> 
+            </>
+          }
+          />
+
           <Route path="/" element={
             <>
               <Navbarr />
               <MomCareApp /> 
+              <Footer /> 
             </>
           }
           />
