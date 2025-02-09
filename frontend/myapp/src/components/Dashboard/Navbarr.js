@@ -54,7 +54,7 @@ function Navbarr() {
               </Nav.Link>
             )}
             {!isLoggedIn && (
-              <Nav.Link as={Link} to="/register" className="btn btn-success text-primary ms-2">
+              <Nav.Link as={Link} to="/login" className="btn btn-success text-primary ms-2">
                 Đăng ký
               </Nav.Link>
             )}

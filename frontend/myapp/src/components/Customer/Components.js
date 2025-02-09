@@ -41,7 +41,7 @@
  `;
  
  export const Form = styled.form`
- background-color: #ffffff;
+ background-color:rgb(255, 255, 255);
  display: flex;
  align-items: center;
  justify-content: center;

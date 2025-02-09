@@ -26,7 +26,14 @@ function App() {
         
         <Routes>
           <Route path="/login" element={<LoginPage />} />
-
+          <Route path="/" element={
+            <>
+              <Navbarr />
+              <MomCareApp /> 
+              <Footer /> 
+            </>
+          }
+          />
           <Route path="/membership" element={
             <>
               <Navbarr />
@@ -36,14 +43,7 @@ function App() {
           }
           />
 
-          <Route path="/" element={
-            <>
-              <Navbarr />
-              <MomCareApp /> 
-              <Footer /> 
-            </>
-          }
-          />
+          
         </Routes>
       </div>
   );

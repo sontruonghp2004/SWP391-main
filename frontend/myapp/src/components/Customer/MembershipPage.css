@@ -31,7 +31,7 @@
   
   .membership-container {
     padding: 20px;
-    background: var(--secondary-pink); /* Set the background color to light pink */
+    background: var(--primary-pink); /* Set the background color to light pink */
   }
   
   .membership-title {
@@ -91,6 +91,20 @@
   
   .membership-plan ul li {
     margin-bottom: 8px;
+  }
+  
+  .membership-plan button {
+    background: var(--deep-pink);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .membership-plan button:hover {
+    background: var(--accent-pink);
   }
   
   .payment-method-title {
