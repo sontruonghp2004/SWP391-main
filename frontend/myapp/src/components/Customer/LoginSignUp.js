@@ -44,7 +44,9 @@ function LoginPage({ setIsLoggedIn }) {
     } catch (error) {
       // Display error message
       toast.error('Login failed. Please check your credentials.');
+      navigate('/');
     }
+    
   };
 
   return (
