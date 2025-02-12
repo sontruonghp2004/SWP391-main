@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import './App.css';
+import AboutUs from './components/Customer/AboutUs';
 import LoginPage from './components/Customer/LoginSignUp'; // Ensure the correct path
 import MembershipPage from './components/Customer/MembershipPage';
 import Footer from './components/Dashboard/Footer'; // Ensure the correct path
@@ -42,6 +43,16 @@ function App() {
             </>
           }
           />
+
+          <Route path="/about" element={
+            <>
+              <Navbarr />
+              <AboutUs /> 
+              <Footer /> 
+            </>
+          }
+          />
+
 
           
         </Routes>
